@@ -46,3 +46,26 @@ Uso de Bucket Policies para exigir conexões seguras (HTTPS).
 Geração de nomes dinâmicos de buckets com variáveis (!Sub ${AWS::StackName} e ${AWS::AccountId}).
 
 Criação de recursos Serverless com o transformador AWS::Serverless-2016-10-31.
+
+Durante o curso e o desafio, aprendi também sobre a importância das boas práticas em CloudFormation, abordadas nos talks e explicações dos instrutores da DIO:
+
+Automatizar é padronizar: todo recurso deve nascer de um template versionado.
+
+Evitar criação manual: o console é apenas para testes; produção deve ser via IaC.
+
+Reutilizar templates: uma Stack bem construída pode ser aplicada em vários ambientes (dev, teste e produção).
+
+Usar parâmetros e variáveis: tornam o template dinâmico e flexível.
+
+Segurança é prioridade: criptografia e HTTPS não são opcionais — são boas práticas obrigatórias.
+
+Esses pontos me ajudaram a entender que CloudFormation não é só uma ferramenta de criação, mas também um método de governança e segurança em infraestrutura.
+
+Conclusão
+
+Esse desafio foi essencial para consolidar meu entendimento sobre Infrastructure as Code (IaC) e o uso do AWS CloudFormation na prática.
+Aprendi a modelar, automatizar e proteger recursos em nuvem de forma profissional.
+
+Hoje entendo que CloudFormation não é apenas sobre “criar recursos”, mas sobre controlar, versionar e garantir conformidade na infraestrutura.
+
+Essa foi minha primeira Stack completa e segura, criada 100% via código — um marco importante na minha jornada como desenvolvedora e futura especialista em cloud.
